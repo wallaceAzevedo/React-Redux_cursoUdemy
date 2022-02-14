@@ -11,6 +11,8 @@ import Primeiro from "./components/basico/Primeiro";
 import Fragmento from "./components/basico/Fragmento"
 import ListaAlunos from "./components/repeticao/ListaAlunos";
 import TabelaProdutos from "./components/repeticao/TabelaProdutos";
+import ParOuImpar from "./components/condicional/ParOuImpar";
+import UsuarioInfo from "./components/condicional/UsuarioInfo";
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default ()=>{
@@ -18,6 +20,12 @@ export default ()=>{
         <div className="App">
             <h1>Fundamentos React</h1>
             <div className="Cards">
+                <Card titulo="08 - Renderização Condicional" color="#982395">
+                    <ParOuImpar numero={2}/>
+                    <UsuarioInfo usuario={{ nome: 'Teobaldo'}}/>
+                    <UsuarioInfo usuario={{ email: 'Teobaldo@123.com'}}/>
+                    <UsuarioInfo usuario={{}}/>
+                </Card>
                 <Card titulo="07 - Repetição Produtos" color="#3A9AD9">
                         <TabelaProdutos/>
                 </Card>
