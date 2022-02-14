@@ -9,5 +9,5 @@ export default [
     {id: 7, nome: '1 pé de tênis', preco: 228.42},
     {id: 8, nome: 'foto do meu pé', preco: 1000001.62},
     {id: 9, nome: 'Ulalau', preco: 0.92},
-    {id: 9, nome: 'carregador de nokia 51', preco: 500.62},
+    {id: 10, nome: 'carregador de nokia 51', preco: 500.62},
 ]
