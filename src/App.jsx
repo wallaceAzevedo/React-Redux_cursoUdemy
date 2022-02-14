@@ -7,6 +7,7 @@ import Fragmento from "./components/basico/Fragmento"
 
 import Card from "./components/layout/Card";
 import Familia from "./components/basico/Familia";
+import FamiliaMembro from "./components/basico/FamiliaMembro";
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default ()=>{
@@ -16,6 +17,9 @@ export default ()=>{
             <div className="Cards">
             <Card titulo="05 -Componentes com filhos" color="#00c8f8">
                     <Familia sobrenome=" Azevedo"/>
+                    <FamiliaMembro nome="wallace"/>
+                    <FamiliaMembro nome="Allan" />
+                    <FamiliaMembro nome="Maria" />
                 </Card>
                 <Card titulo="04 -Desafio Aleatorio" color="#FA6900">
                     <Aleatorio min={1} max={60}/>
