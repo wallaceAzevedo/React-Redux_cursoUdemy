@@ -10,6 +10,7 @@ import ComParametro from "./components/basico/ComParametro";
 import Primeiro from "./components/basico/Primeiro";
 import Fragmento from "./components/basico/Fragmento"
 import ListaAlunos from "./components/repeticao/ListaAlunos";
+import TabelaProdutos from "./components/repeticao/TabelaProdutos";
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default ()=>{
@@ -17,6 +18,9 @@ export default ()=>{
         <div className="App">
             <h1>Fundamentos React</h1>
             <div className="Cards">
+                <Card titulo="07 - Repetição Produtos" color="#3A9AD9">
+                        <TabelaProdutos/>
+                </Card>
                 <Card titulo="06 - Repetição" color="#FF4C65">
                         <ListaAlunos></ListaAlunos>
                 </Card>
