@@ -15,11 +15,12 @@ export default ()=>{
         <div className="App">
             <h1>Fundamentos React</h1>
             <div className="Cards">
-            <Card titulo="05 -Componentes com filhos" color="#00c8f8">
-                    <Familia sobrenome=" Azevedo"/>
-                    <FamiliaMembro nome="wallace"/>
-                    <FamiliaMembro nome="Allan" />
-                    <FamiliaMembro nome="Maria" />
+                <Card titulo="05 -Componentes com filhos" color="#00c8f8">
+                    <Familia sobrenome=" Azevedo">
+                        <FamiliaMembro nome="wallace"/>
+                        <FamiliaMembro nome="Allan" />
+                        <FamiliaMembro nome="Maria" />
+                    </Familia>
                 </Card>
                 <Card titulo="04 -Desafio Aleatorio" color="#FA6900">
                     <Aleatorio min={1} max={60}/>
