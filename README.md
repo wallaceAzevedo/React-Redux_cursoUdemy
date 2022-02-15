@@ -17,7 +17,7 @@
 
 ## ✨ Tecnologias
 
-Este é um Projeto [Next.js](https://nextjs.org/) inicializado com [`yarn create next-app`] e desenvolvido com as seguintes tecnologias.
+Este é um Projeto [Next.js](https://nextjs.org/) inicializado com [`yarn create react-app`] e desenvolvido com as seguintes tecnologias.
 
 - [React js](https://reactjs.org)
 - [Webpack](https://)
