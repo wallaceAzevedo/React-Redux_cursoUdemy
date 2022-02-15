@@ -17,6 +17,7 @@ import DiretaPai from "./components/comunicacao/DiretaPai";
 import IndiretaPai from "./components/comunicacao/IndiretaPai";
 import Input from "./components/formulario/Input";
 import Contador from "./components/contador/Contador";
+import Megasena from "./components/megasena/Megasena"
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default ()=>{
