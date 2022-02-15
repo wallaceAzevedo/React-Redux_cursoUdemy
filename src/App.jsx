@@ -15,6 +15,8 @@ import ParOuImpar from "./components/condicional/ParOuImpar";
 import UsuarioInfo from "./components/condicional/UsuarioInfo";
 import DiretaPai from "./components/comunicacao/DiretaPai";
 import IndiretaPai from "./components/comunicacao/IndiretaPai";
+import Input from "./components/formulario/Input";
+import Contador from "./components/contador/Contador";
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default ()=>{
@@ -22,6 +24,12 @@ export default ()=>{
         <div className="App">
             <h1>Fundamentos React</h1>
             <div className="Cards">
+                <Card titulo="12 - contador" color="#E45f56">
+                   <Contador numeroInicial={10} />
+                </Card>
+                <Card titulo="11 - componente controlado (Input)" color="#E45f56">
+                   <Input/>
+                </Card>
                 <Card titulo="10 - Comunicação Indireta" color="#8BAD39">
                    <IndiretaPai/>
                 </Card>
