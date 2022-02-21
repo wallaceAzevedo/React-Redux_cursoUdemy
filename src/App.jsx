@@ -25,7 +25,10 @@ export default ()=>{
         <div className="App">
             <h1>Fundamentos React</h1>
             <div className="Cards">
-                <Card titulo="12 - contador" color="#E45f56">
+                <Card titulo="13 - Mega" color="#B9006E">
+                   <Megasena qtde={6} />
+                </Card>
+                <Card titulo="12 - contador" color="#424242">
                    <Contador numeroInicial={10} />
                 </Card>
                 <Card titulo="11 - componente controlado (Input)" color="#E45f56">
