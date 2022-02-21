@@ -1,7 +1,8 @@
-import React, { Component } from "react";
+import React, { Component } from 'react'
 import './Calculator.css'
-import Button from "../components/Button";
-import Display from "../components/Display";
+
+import Button from '../components/Button'
+import Display from '../components/Display'
 
 const initialState = {
     displayValue: '0',
@@ -13,7 +14,7 @@ const initialState = {
 
 export default class Calculator extends Component {
 
-    state = {...initialState }
+    state = { ...initialState }
 
     constructor(props) {
         super(props)
@@ -46,7 +47,6 @@ export default class Calculator extends Component {
                 clearDisplay: !equals,
                 values
             })
-            console.log(values)
         }
     }
     addDigit(n){
@@ -61,7 +61,7 @@ export default class Calculator extends Component {
        if (n !== '.'){
            const i = this.state.current
            const newValue = parseFloat(displayValue)
-           const values = {...this.state.value}
+           const values =  [ ...this.state.values]
            values[i] = newValue
            this.setState({values})
            console.log(values)
